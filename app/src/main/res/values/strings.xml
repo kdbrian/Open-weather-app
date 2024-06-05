@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OpenMeteoWeatherApp</string>
+
+    <string-array name="chartitems">
+        <item>temperature</item>
+        <item>cloud cover</item>
+        <item>wind speed</item>
+    </string-array>
+
+</resources>
