@@ -9,7 +9,7 @@ private const val TAG = "WeatherApiInterceptor"
 
 class WeatherApiInterceptor : Interceptor {
     override fun intercept(chain: Interceptor.Chain): Response {
-        Log.d(TAG, "intercept: ${chain.request().url()}")
+        Log.d(TAG, "intercept: ${chain.request().url}")
         return chain.proceed(chain.request())
     }
 }

@@ -1,4 +1,4 @@
-package io.github.junrdev.openmeteoweatherapp.model
+package io.github.junrdev.openmeteoweatherapp.domain.model
 
 import com.google.gson.annotations.SerializedName
 

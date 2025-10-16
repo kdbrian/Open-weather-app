@@ -1,6 +1,6 @@
 package io.github.junrdev.openmeteoweatherapp.data.remote
 
-import io.github.junrdev.openmeteoweatherapp.model.CurrentWeatherForecast
+import io.github.junrdev.openmeteoweatherapp.domain.model.CurrentWeatherForecast
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

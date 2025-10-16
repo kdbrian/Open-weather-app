@@ -1,4 +1,4 @@
-package io.github.junrdev.openmeteoweatherapp.model
+package io.github.junrdev.openmeteoweatherapp.domain.model
 
 import androidx.annotation.DrawableRes
 import io.github.junrdev.openmeteoweatherapp.R

@@ -1,40 +1,29 @@
-package io.github.junrdev.openmeteoweatherapp.model
+package io.github.junrdev.openmeteoweatherapp.domain.model
 
 import com.google.gson.annotations.SerializedName
 
 data class CurrentWeatherForecast(
-    @SerializedName("latitude")
-    val latitude: Double,
+    @SerializedName("latitude") val latitude: Double,
 
-    @SerializedName("longitude")
-    val longitude: Double,
+    @SerializedName("longitude") val longitude: Double,
 
-    @SerializedName("generationtime_ms")
-    val generationTimeMs: Double,
+    @SerializedName("generationtime_ms") val generationTimeMs: Double,
 
-    @SerializedName("utc_offset_seconds")
-    val utcOffsetSeconds: Double,
+    @SerializedName("utc_offset_seconds") val utcOffsetSeconds: Double,
 
-    @SerializedName("timezone")
-    val timeZone: String,
+    @SerializedName("timezone") val timeZone: String,
 
-    @SerializedName("timezone_abbreviation")
-    val timeZoneAbbreviation: String,
+    @SerializedName("timezone_abbreviation") val timeZoneAbbreviation: String,
 
-    @SerializedName("elevation")
-    val elevation: String,
+    @SerializedName("elevation") val elevation: String,
 
-    @SerializedName("current_units")
-    val currentUnits: CurrentUnits,
+    @SerializedName("current_units") val currentUnits: CurrentUnits,
 
-    @SerializedName("current")
-    val current: Current,
+    @SerializedName("current") val current: Current,
 
-    @SerializedName("hourly_units")
-    val hourlyUnits: HourlyUnits,
+    @SerializedName("hourly_units") val hourlyUnits: HourlyUnits,
 
-    @SerializedName("hourly")
-    val hourly: Hourly
+    @SerializedName("hourly") val hourly: Hourly
 )
 
 data class Current(
