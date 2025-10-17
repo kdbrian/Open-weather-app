@@ -1,4 +1,4 @@
-package io.github.junrdev.openmeteoweatherapp
+package com.kdbrian.openmeteoweatherapp
 
 import org.junit.Test
 
